@@ -17,10 +17,10 @@ body{
     margin: 0px auto;
 }
 
-.content {
+.content { 
     flex: 1 1 auto;
 }
-.hi {
+.hi { 
 		&__row {}
 		&__body {}
 		&__title {}
@@ -39,5 +39,6 @@ body{
     &__text {
         color: #445162;
         font-size: 12px;
+        
     }
 }

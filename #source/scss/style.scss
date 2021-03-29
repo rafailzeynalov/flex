@@ -6,23 +6,68 @@ body{
 }
 
 .wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
 }
+
+.container {
+	max-width: 1180px;
+	margin: 0px auto;
+}
+
 .content {
+	flex: 1 1 auto;
 }
 .hi {
+	background-color: #445162;
+	color: #f5f5f5;
+	padding: 50px 0;
 
-		&__row {}
-		&__body {}
-		&__title {}
-		&__list {}
-		&__image {}
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__body {
+		color: #fff;
+		padding: 0px 30px 0px 0px
+	}
+	&__title {
+		text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+		font-size: 60px;
+		margin: 0px 0px 38px 0px;
+	}
+	&__list {}
+	&__list li {
+		background: url(/img/icons/yes.png) 0 1px no-repeat;
+		text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+		font-size: 20px;
+		padding: 0px 0px 0px 36px;
+		margin-bottom: 15px;
+		line-height: 22px;
+	}
+	&__list li:last-child {
+		margin: 0;
+	}
+	&__image {}
 }
 .container {
 }
 .footer {
-
-		&__row {}
-        &__text {}
+	background-color: #f5f5f5;
+		&__row {
+			display: flex;
+			height: 65px;
+			justify-content: center;
+			align-items: center;
+		}
+        &__text {
+			color: #445162;
+			font-size: 12px;
+			letter-spacing: 0.3px;
+		}
 }
 
 

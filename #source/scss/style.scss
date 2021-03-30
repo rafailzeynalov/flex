@@ -21,6 +21,7 @@ body{
 .content {
 	flex: 1 1 auto;
 }
+
 .hi {
 	background-color: #445162;
 	color: #f5f5f5;
@@ -52,9 +53,44 @@ body{
 		margin: 0;
 	}
 	&__image {}
+
 }
+
+.title {
+	font-size: 30px;
+	line-height: 36px;
+	color: #445161;
+}
+
+.what {
+	padding: 50px 0px;
+	&__row {
+		display: flex;
+	}
+	&__image {
+		flex: 0 0 430px;
+	}
+	&__image img{
+		max-width: 100%;
+	}
+	&__body {
+		flex: 1 1 auto;
+		padding: 0px 0px 0px 38px;
+	}
+	&__title {
+		margin: 0px 0px 33px 0px;
+	}
+	&__text p{
+		margin: 0px 0px 25px 0px;
+		color: #333333;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
 .container {
 }
+
 .footer {
 	background-color: #f5f5f5;
 		&__row {
